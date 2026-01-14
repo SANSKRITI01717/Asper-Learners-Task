@@ -21,7 +21,7 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     
   
-    spotsLeft = spotsLeft + 1; 
+    spotsLeft = spotsLeft - 1; 
     
    
     counterEl.innerText = spotsLeft;
